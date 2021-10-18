@@ -1,1 +1,1 @@
-# Solving-subset-generation-problem-with-RBSC-SubGen
+# Solving subset generation problem with RBSC-SubGen
