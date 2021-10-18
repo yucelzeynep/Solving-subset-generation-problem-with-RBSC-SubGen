@@ -1,7 +1,12 @@
 # Solving subset generation problem with RBSC-SubGen
 
-This study focuses on the \textit{subset generation} problem of computational statistics and deploys the rank-biserial correlation (RBSC) based deck generation algorithm  ``RBSC-SubGen`` [1] in solving it. ``RBSC-SubGen`` is originally designed for automatically building a desired number of vocabulary decks (out of a large corpus) with a desired level of word frequency relation, which shares many common aspects with the generic subset selection problem. 
- In this article, we consider applying it not only on word corpora but any set of ranked items and study its resilience against various hyper-parameters, which are not treated in previous studies. Namely, we test \texttt{RBSC-SubGen} under various conditions and indicate the vulnerable aspects in terms of saturation and disparity on desired RBSC. 
+We focus on the *subset generation* problem of computational statistics and deploy the rank-biserial correlation (RBSC) based deck generation algorithm ``RBSC-SubGen`` in solving it [1, 2]. ``RBSC-SubGen`` is originally designed for automatically building a desired number of vocabulary decks (out of a large corpus) with a desired level of word frequency relation. 
+
+Exploiting the fact that this objective shares many common aspects with the generic subset selection problem, we deployed ``RBSC-SubGen`` in generating subsets out of universal sets coming from different underlying distributions and of different sizes. We also imposed varying requirements on subset size, desired ranking relation and permissible disparity. 
+
+Our results indicate that ``RBSC-SubGen`` can be used in subset selection, provided that it is formulated as a ranking relation. In addition, \texttt{RBSC-SubGen} is found to be sensitive to subset size, followed by desired RBSC, permissible disparity and finally universal set size.
+
+We consider applying ``RBSC-SubGen`` not only on word corpora but any set of ranked items and study its resilience against various hyper-parameters, which are not treated in previous studies. Namely, we test ``RBSC-SubGen`` under various conditions and indicate the vulnerable aspects in terms of saturation and disparity on desired RBSC. 
  
  **References**
 
@@ -9,3 +14,7 @@ This study focuses on the \textit{subset generation} problem of computational st
 An algorithm for automatic collation of vocabulary decks based on word frequency
 IEICE Transactions on Information and Systems, Vol.E103-D, No.08, pp. 1865-1874, Aug. 2020.
 doi: 10.1587/transinf.2019EDP7279
+
+[Kerby2014] Dave S. Kerby, 
+The simple difference formula: An approach to teaching nonparametric correlation. 
+Comprehensive Psychology, 3, 11-IT, 2014.
