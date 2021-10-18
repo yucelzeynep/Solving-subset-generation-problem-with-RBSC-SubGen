@@ -4,7 +4,7 @@ We focus on the *subset generation* problem of computational statistics and depl
 
 Exploiting the fact that this objective shares many common aspects with the generic subset selection problem, we deployed ``RBSC-SubGen`` in generating subsets out of universal sets coming from different underlying distributions and of different sizes. We also imposed varying requirements on subset size, desired ranking relation and permissible disparity. 
 
-Our results indicate that ``RBSC-SubGen`` can be used in subset selection, provided that it is formulated as a ranking relation. In addition, \texttt{RBSC-SubGen} is found to be sensitive to subset size, followed by desired RBSC, permissible disparity and finally universal set size.
+Our results indicate that ``RBSC-SubGen`` can be used in subset selection, provided that it is formulated as a ranking relation. In addition, ``RBSC-SubGen`` is found to be sensitive to subset size, followed by desired RBSC, permissible disparity and finally universal set size.
 
 We consider applying ``RBSC-SubGen`` not only on word corpora but any set of ranked items and study its resilience against various hyper-parameters, which are not treated in previous studies. Namely, we test ``RBSC-SubGen`` under various conditions and indicate the vulnerable aspects in terms of saturation and disparity on desired RBSC. 
  
