@@ -1,4 +1,4 @@
-# Solving subset generation problem with RBSC-SubGen
+# Solving the subset generation problem with RBSC-SubGen
 
 We focus on the *subset generation* problem of computational statistics and deploy the rank-biserial correlation (RBSC) [Kerby2014] based deck generation algorithm ``RBSC-SubGen`` in solving it [Yucel2020]. ``RBSC-SubGen`` is originally designed for automatically building a desired number of vocabulary decks (out of a large corpus) with a desired level of word frequency relation. 
 
